@@ -1,8 +1,8 @@
 # Resident Evil 4 Character API
 
-Resident Evil 4 Character API is an RestfulAPI used to get and send requests to a MySQL database. The database consisting of two tables based on the characters and organizations from Resident Evil 4 (2004).
+Resident Evil 4 Character api is a REST API used to send HTTP methods to a MySQL database. The database consists of two tables: characters and organizations, based on the video game Resident Evil 4 (2004).
 
-This API was made as my final project for my Intro to API class. The purpose of this API is to showcase the topics that I've learned throughout the semester and how I can implement it into my First API. I am big fan of the Resident Evil series, especially Resident Evil 4. My love for the game inspired me to create my first API based on the game.
+This API was made as my final project for Intro to API. The purpose of this API is to showcase the topics that I've learned throughout the semester and how I can implement them into my first API. I am big fan of the Resident Evil series, especially Resident Evil 4. Its one of the first horror games I played as a child on the original GameCube. My love for the game inspired me to create this API.
 
 # Requirements
 - MySQL Server + MySQL Workbench - used to store information of the characters and organizations into a database.
@@ -11,9 +11,10 @@ This API was made as my final project for my Intro to API class. The purpose of 
 - PostMan - What we will be using to test the API and its endpoints.
 
 # Installation
-1. Download the SQL script provided in the respository and add it to your MySQL Workbench.
-2. Download and open the C# API project and run it.
+1. Download or clone the repository using git and run the API.
+2. Add the SQL script provided in the respository to your MySQL Workbench.
 3. Open PostMan and use the API References below.
+
 # Tables
 
 **Characters**
@@ -74,4 +75,4 @@ This API was made as my final project for my Intro to API class. The purpose of 
 ```
 
 ## Changes
-Didn't change much of the project other than the HTTP methods and the endpoints, that I proposed during my API Idea presnetations. Added a test item to showcase the delete request in postman.
+Didn't change much of the project other than the HTTP methods and the endpoints, that I proposed during my API idea presnetations. Added a test item to showcase the delete request in postman.
