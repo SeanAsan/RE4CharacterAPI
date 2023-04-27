@@ -62,8 +62,21 @@ This API was made as my final project for Intro to API. The purpose of this API 
 
 ```http
 {
-  StatusCode: 200
-  StatusDescription: "ITS VALID!!!! YESSIRRRR!!!!!"
+    "statusCode": 200,
+    "statusDescription": "ITS VALID!!!! YESSIRRRR!!!!!",
+    "characters": [
+        {
+            "characterId": 1,
+            "firstName": "Leon",
+            "lastName": "Kennedy",
+            "age": 27,
+            "organization": {
+                "organizationId": 1,
+                "organizationName": "US-STRATCOM",
+                "organizationType": "Hero"
+            }
+        }
+    ]
 }
 ```
 
