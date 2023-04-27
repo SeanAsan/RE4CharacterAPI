@@ -12,7 +12,7 @@ This API was made as my final project for Intro to API. The purpose of this API 
 
 # Installation
 1. Download or clone the repository using git and run the API.
-2. Add the SQL script provided in the respository to your MySQL Workbench.
+2. Create a schema named RE4Character and add the SQL script provided in the respository to your MySQL Workbench.
 3. Open PostMan and use the API References below.
 
 # Tables
