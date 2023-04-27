@@ -29,10 +29,6 @@ This API was made as my final project for Intro to API. The purpose of this API 
 - The fifth Organization ID is used to demonstrate the DELETE Request in the Organization controller.
 ## HTTP Methods & API endpoints
 
-/api/character/{id}
-/api/organization/{id}
-/api/character
-
 #### GET a specific item;
 
 ```http
