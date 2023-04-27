@@ -4,6 +4,17 @@ Resident Evil 4 Character api is a REST API used to request and update informati
 
 This API was made as my final project for Intro to API. The purpose of this API is to showcase the topics that I've learned throughout the semester and how I can implement them into my first API. I am big fan of the Resident Evil series, especially Resident Evil 4. Its one of the first horror games I played as a child on the original GameCube. My love for the game inspired me to create this API.
 
+# Programs used
+- MySQL Server + MySQL Workbench - used to store information of the characters and organizations into a database.
+- C# - used to create the models and controllers for the REST API. Also used to connect to the MySQL database.
+- C# NuGet packages - Microsoft.EntityFrameworkCore NuGet Package, Microsoft.EntityFrameworkCore.InMemory and Pomelo.EntityFrameworkCore.MySql.
+- PostMan - What we will be using to test the API and its endpoints.
+
+# Installation
+1. Download or clone the repository using git and run the API.
+2. Create a schema named RE4Character and add the SQL script provided in the respository to your MySQL Workbench.
+3. Open PostMan and use the API References below.
+
 # Tables
 
 **Characters**
