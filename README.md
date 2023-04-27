@@ -1,6 +1,6 @@
 # Resident Evil 4 Character API
 
-Resident Evil 4 Character api is a REST API used to request and update information of the characters and the organization from the video game Resident Evil 4 (2002). The database consists of two tables: characters and organizations, based on the video game Resident Evil 4 (2004).
+Resident Evil 4 Character api is a REST API used to request and update information of the characters and the organization from the video game Resident Evil 4 (2004). The database consists of two tables: characters and organizations, based on the video game Resident Evil 4 (2004).
 
 This API was made as my final project for Intro to API. The purpose of this API is to showcase the topics that I've learned throughout the semester and how I can implement them into my first API. I am big fan of the Resident Evil series, especially Resident Evil 4. Its one of the first horror games I played as a child on the original GameCube. My love for the game inspired me to create this API.
 
